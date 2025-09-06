@@ -1,4 +1,3 @@
-
 let runTimeOut;
 let runNextAuto;
 
@@ -19,6 +18,16 @@ prevBtn.onclick = function () {
     showSlide('prev')
 }
 
+runNextAuto = setTimeout(() => {
+    nextBtn.click()
+}, timeAutoNext)
+
+function resetTimeAnimation() {
+    runningTime.style.animation = 'none'
+    runningTime.offsetHeight // force reflow
+    runningTime.style.animation = 'runningTime 7s linear 1 forwards'
+}
+
 function showSlide(type) {
     let sliderItemsDom = list.querySelectorAll('.carousel .list .item')
     if (type === 'next') {
@@ -31,7 +40,7 @@ function showSlide(type) {
 
     clearTimeout(runTimeOut)
 
-    runTimeOut = setTimeout( () => {
+    runTimeOut = setTimeout(() => {
         carousel.classList.remove('next')
         carousel.classList.remove('prev')
     }, timeRunning)
@@ -40,8 +49,6 @@ function showSlide(type) {
     runNextAuto = setTimeout(() => {
         nextBtn.click()
     }, timeAutoNext)
-}
 
-runNextAuto = setTimeout(() => {
-    nextBtn.click();
-}, timeAutoNext);
+    resetTimeAnimation()
+}
