@@ -245,3 +245,39 @@ a:hover{
         font-size: 10px;
     }
 }
+
+/* home description */
+
+.home-des{
+    height: 100vh;
+    width: 100vw;
+}
+.tittle-one{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tittle-one a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+a span{
+    font-size: 18px;
+}
+.tittle-two{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tittle-two a{
+    text-decoration: none;
+    color: black;
+}
+.tittle-three{
+    height: 40px;
+    background: orangered;
+}
