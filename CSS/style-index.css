@@ -267,17 +267,78 @@ a:hover{
 a span{
     font-size: 18px;
 }
+.span-and{
+    font-size: 12px;
+}
 .tittle-two{
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 16px;
+    overflow: hidden;
+    white-space: nowrap;
 }
+.tittle-two a:hover{
+    background: none;
+}
+
 .tittle-two a{
     text-decoration: none;
     color: black;
+    border-left: 1px solid black;
+    padding-left: 8px;
 }
+.tittle-two a:nth-child(1){
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.tittle-two a:nth-child(2){
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.tittle-two a:nth-child(3){
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.tittle-two a:nth-child(4){
+    font-family:  serif;
+}
+.tittle-two a:nth-child(5){
+    font-family:  serif;
+}
+.tittle-two a:nth-child(6){
+    font-family:  sans-serif;
+}
+.tittle-two a:nth-child(7){
+    font-family:  sans-serif;
+}
+
 .tittle-three{
-    height: 40px;
-    background: orangered;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tittle-three a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.tittle-three a span{
+    font-size: 12px;
+}
+
+/* _____________Women's perfume_________________ */
+.women-perfume{
+    background: gray;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.perfume-card{
+    width:200px;
+    height: 100%;
+    background: #943333;
 }
