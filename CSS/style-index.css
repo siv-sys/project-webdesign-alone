@@ -330,7 +330,6 @@ a span{
 
 /* _____________Women's perfume_________________ */
 .women-perfume{
-    background: gray;
     height: 60vh;
     width: 100vw;
     display: flex;
@@ -340,5 +339,33 @@ a span{
 .perfume-card{
     width:200px;
     height: 100%;
-    background: #943333;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.perfume-card h4{
+    text-align: center;
+}
+.image-card{
+    height: 50%;
+
+}
+.image-card img{
+    height: 100%;
+    width: 100%;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 24px;
+}
+.small{
+    font-size: 12px;
+}
+.save{
+    color: red;
 }
