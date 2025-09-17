@@ -7,7 +7,7 @@ header{
     width: 100%;
     max-width: 100%;
     padding-left: 50px;
-    height: 50px;
+    height: 10vh;
     display: flex;
     align-items: center;
     position: relative;
@@ -249,7 +249,7 @@ a:hover{
 /* home description */
 
 .home-des{
-    height: 100vh;
+    height:210vh;
     width: 100vw;
 }
 .tittle-one{
@@ -317,6 +317,7 @@ a span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 .tittle-three a{
     text-decoration: none;
@@ -330,7 +331,7 @@ a span{
 
 /* _____________Women's perfume_________________ */
 .women-perfume{
-    height: 62vh;
+    height: 64vh;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
@@ -344,6 +345,16 @@ a span{
     flex-direction: column;
     align-items: center;
     gap: 4px;
+    transition: 0.3s ease-in-out;
+}
+.perfume-card:hover{
+    transform: scale(1.04, 1.04);
+    box-shadow: 
+  rgba(0, 255, 255, 0.25) 0px 50px 100px -20px, 
+  rgba(0, 255, 255, 0.3) 0px 30px 60px -30px, 
+  rgba(0, 255, 255, 0.35) 0px -2px 6px 0px inset;
+
+
 }
 .perfume-card h4{
     text-align: center;
@@ -378,4 +389,15 @@ a span{
 }
 .tittle-three a:hover{
     background: none;
+}
+.rrp{
+    font-size: 14px;
+    color: gray;
+}
+/* ________FOOTER _____________*/
+
+.home-foot{
+    height: 50vh;
+    width: 100vw;
+    background: #000;
 }

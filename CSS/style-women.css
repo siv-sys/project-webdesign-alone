@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    max-width: 100%;
+    padding-left: 50px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+header nav a{
+    color: white;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    transition: 0.2s;
+    text-decoration: none;
+
+}
+.active{
+    background: #14ff72cb ;
+    border-radius: 2px;
+}
+a:hover{
+    background: #14ff72cb;
+    border-radius: 2px;
+}
+
+.image{
+    height: 90vh;
+    width: 100vw;
+}
+.image img{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-size: cover;
+    margin-top: -10vh;
+}
+
+
+/* _____________section-content___________ */
+
+.women-sec{
+    height: 300vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.women-perfume{
+    height: 64vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+.perfume-card{
+    width:200px;
+    background: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    transition: 0.3s ease-in-out;
+}
+.perfume-card:hover{
+    transform: scale(1.04, 1.04);
+    box-shadow: 
+  rgba(0, 255, 255, 0.25) 0px 50px 100px -20px, 
+  rgba(0, 255, 255, 0.3) 0px 30px 60px -30px, 
+  rgba(0, 255, 255, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+.perfume-card h4{
+    text-align: center;
+}
+.image-card{
+    height: 45%;
+
+}
+.image-card img{
+    height: 100%;
+    width: 100%;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 24px;
+}
+.small{
+    font-size: 12px;
+}
+.save{
+    color: red;
+}
+.men-tittle{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.tittle-one a:hover{
+    background: none;
+}
+.tittle-three a:hover{
+    background: none;
+}
+.rrp{
+    font-size: 14px;
+    color: gray;
+}
+.women-brand{
+    margin-left: 80px;
+}
