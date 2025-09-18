@@ -32,3 +32,8 @@ a:hover{
     background: #14ff72cb;
     border-radius: 2px;
 }
+.poster{
+    height: 60vh;
+    width: 100vw;
+    background: gray;
+}
