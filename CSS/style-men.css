@@ -6,6 +6,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background: #E5E7EB;
 }
 header{
     width: 100%;

@@ -6,6 +6,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
 }
 header{
     width: 100%;
@@ -62,7 +63,7 @@ a:hover{
     align-items: center;
     text-align: center;
     gap: 10px;
-    
+
 
 }
 .free-shipping i, .premium i, .trust i{
