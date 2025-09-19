@@ -6,7 +6,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background: #E5E7EB;
+    background: #e1e3e6;
 }
 header{
     width: 100%;
@@ -56,12 +56,18 @@ a:hover{
 }
 .free-shipping, .premium, .trust{
     height: 100%;
-    width: 10vw;
+    width: 16vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
+    background: white;
     gap: 10px;
+    border-radius: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s ease-in-out;
+
 }
 .free-shipping i, .premium i, .trust i{
     font-size: 40px;
@@ -72,9 +78,17 @@ a:hover{
     color: black;
     transition:0.3s ease-in-out;
 }
-.free-shipping a:hover, .premium a:hover, .trust a:hover{
+.free-shipping:hover, .premium:hover, .trust:hover{
     transform: scale(1.1,1.1);
+    
+}
+.free-shipping a:hover, .premium a:hover, .trust a:hover{
     color: #14ff72cb;
+
+}
+.promise{
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 
@@ -94,7 +108,6 @@ a:hover{
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 40px;
-    margin-top: 40px;
 }
 .perfume-card{
     width:200px;
