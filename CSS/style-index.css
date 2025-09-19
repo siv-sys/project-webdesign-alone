@@ -272,46 +272,7 @@ a span{
 .span-and{
     font-size: 12px;
 }
-.tittle-two{
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    overflow: hidden;
-    white-space: nowrap;
-}
-.tittle-two a:hover{
-    background: none;
-}
 
-.tittle-two a{
-    text-decoration: none;
-    color: black;
-    border-left: 1px solid black;
-    padding-left: 8px;
-}
-.tittle-two a:nth-child(1){
-    font-family:  Helvetica, Arial, sans-serif;
-}
-.tittle-two a:nth-child(2){
-    font-family:  Helvetica, Arial, sans-serif;
-}
-.tittle-two a:nth-child(3){
-    font-family:  Helvetica, Arial, sans-serif;
-}
-.tittle-two a:nth-child(4){
-    font-family:  serif;
-}
-.tittle-two a:nth-child(5){
-    font-family:  serif;
-}
-.tittle-two a:nth-child(6){
-    font-family:  sans-serif;
-}
-.tittle-two a:nth-child(7){
-    font-family:  sans-serif;
-}
 
 .tittle-three{
     height: 60px;
